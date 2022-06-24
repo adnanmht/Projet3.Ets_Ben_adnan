@@ -1,7 +1,7 @@
 import React from "react";
 
-const teeshirt_jeans = () => {
-  return <div>teeshirt_jeans</div>;
+const Jeans_tee_shirt = () => {
+  return <div>Jeans_tee_shirt</div>;
 };
 
-export default teeshirt_jeans;
+export default Jeans_tee_shirt;

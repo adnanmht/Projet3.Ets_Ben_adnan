@@ -1,7 +1,7 @@
 import React from "react";
 
-const pagne_getzner = () => {
-  return <div>pagne_getzner</div>;
+const Pagne_Getzner = () => {
+  return <div>Pagne_Getzner</div>;
 };
 
-export default pagne_getzner;
+export default Pagne_Getzner;
