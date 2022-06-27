@@ -1,12 +1,16 @@
-import React from "react";
+import "./App.css";
+import Footer from "./components/Footer";
+import Main from "./components/Main";
 import Navbar from "./components/Navbar/Navbar";
 
-const App = () => {
+function App() {
   return (
-    <div>
+    <>
       <Navbar />
-    </div>
+      <Main />
+      <Footer />
+    </>
   );
-};
+}
 
 export default App;
