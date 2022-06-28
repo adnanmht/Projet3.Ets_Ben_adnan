@@ -8,7 +8,7 @@ const Home = () => {
       <div>
         <h2>Vente en Gros et detail</h2>
         <h3>
-          Vous etes commerçant l’Ets Ben-Adnan vous ogffres la possibilités de
+          Vous etes commerçant l’Ets Ben-Adnan vous offres la possibilités de
           payé en 2 fois 3 fois et 4 fois sans frais
         </h3>
 
@@ -20,6 +20,25 @@ const Home = () => {
           PAGNE & GETZNER
         </button>
       </div>
+      <div>
+        {" "}
+        <button class="favorite styled" type="button">
+          PAGNE & GETZNER
+        </button>
+      </div>
+      <div>
+        {" "}
+        <button class="favorite styled" type="button">
+          PAGNE & GETZNER
+        </button>
+      </div>
+      <div>
+        {" "}
+        <button class="favorite styled" type="button">
+          PAGNE & GETZNER
+        </button>
+      </div>
+      
     </div>
   );
 };

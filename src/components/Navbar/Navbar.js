@@ -17,22 +17,22 @@ const Navbar = () => {
         <Link to="/" className="Home">
           <li>Home</li>
         </Link>
-        <Link to="/" className="Pagne_Getzner">
+        <Link to="/Pagne_Getzner" className="Pagne_Getzner">
           <li>Pgne&Getzner</li>
         </Link>
-        <Link to="/" className="Nos_chaussure">
+        <Link to="/Nos_chaussure" className="Nos_chaussure">
           <li>Nos_Chaussure</li>
         </Link>
-        <Link to="/" className="Jeans_teeshirt">
+        <Link to="/eans_teeshirt" className="Jeans_teeshirt">
           <li>Teeshirt&Jeans</li>
         </Link>
-        <Link to="/" className="Qui_somme_nous">
+        <Link to="/Qui_somme_nous" className="Qui_somme_nous">
           <li>Qui_somme_nous</li>
         </Link>
-        <Link to="/" className="Contact">
+        <Link to="/Contact" className="Contact">
           <li>Contact</li>
         </Link>
-        <Link to="/" className="Signup">
+        <Link to="/Signup" className="Signup">
           <li>Sign Up</li>
         </Link>
       </ul>
