@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <h3 className="logo">
-        <img src="img/logo.png" alt="logo"></img>{" "}
+        <img src="img/logo.png" alt="logo"></img>
       </h3>
 
       <ul
