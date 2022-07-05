@@ -59,10 +59,21 @@ td {
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 600px) {
-  img {
-    padding: 5% 30%;
+  .images {
     display: flex;
     justify-content: center;
+    padding: 0% 70px;
+  }
+  .ligne1 {
+    margin: 10% 30%;
+  }
+  .ligne2 {
+    margin: 10% 5%;
+  }
+  .ligne {
+    color: rgba(8, 29, 103, 1);
+    text-align: center;
+    margin: 5%;
   }
 }
 
