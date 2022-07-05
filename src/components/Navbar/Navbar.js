@@ -6,9 +6,9 @@ const Navbar = () => {
   const [isMobile, setIsMobile] = useState(false);
   return (
     <nav className="navbar">
-      <h3 className="logo">
-        <img src="img/ets_benadnan.png" alt="logo"></img>
-      </h3>
+      <div className="logo">
+        <>EtsBEN ADNAN</>
+      </div>
 
       <ul
         className={isMobile ? "nav-links-mobile" : "nav-links"}

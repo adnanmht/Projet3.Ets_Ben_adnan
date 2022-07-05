@@ -10,13 +10,9 @@
   background-color: blue;
 }
 
-.logo img {
-  background-image: url("../img/logo.png");
-  background-repeat: no-repeat;
-  width: 80px;
-  height: 80px;
-  font-size: 20px;
+.logo {
   color: white;
+  font-size: 15px;
 }
 
 .nav-links {
@@ -42,12 +38,21 @@
 }
 
 .Signup {
-  border: 1px solid white;
+  border: 1px solid chartreuse;
   border-radius: 10px;
 }
 
 .mobile-menu-icon {
   display: none;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  width: 60%;
+  position: absolute;
+  text-align: center;
+  justify-content: flex-end;
 }
 
 @media screen and (max-width: 780px) {
@@ -86,19 +91,14 @@
     transition: all 0.5s ease;
   }
 
-  .Signup {
-    border: none;
-  }
-
   .mobile-menu-icon {
-    display: block;
-    position: absolute;
+    display: flex;
+    padding: 0% 0%;
+    margin: 11% 0%;
     font-size: 30px;
     color: white;
-    background-color: rgba(19, 90, 198, 1);
+    background-color: blue;
     border: none;
     outline: none;
-    top: 15px;
-    right: 25px;
   }
 }
