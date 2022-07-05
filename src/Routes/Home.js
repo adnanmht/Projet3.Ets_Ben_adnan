@@ -13,15 +13,13 @@ const Home = () => {
         <img src="img/ets_benadnan.png" alt=""></img>
       </div>
       <h2>Vente en Gros et detail</h2>
-      <h3>
-        <p>
-          Vous êtes commerçant,un magasinier, un marchand, un marchand ambulant
-          vous n'avez pas le moyen financier nécessaire pour créer votre petit
-          business? l'Éts Ben Adnan vous offre la facilité de payer vos
-          commandes en 2, 3, 4 fois sans frais,Nous sommes là pour aidé tout le
-          monde a créé son business dans des bonnes conditions.
-        </p>{" "}
-      </h3>
+      <p className="text">
+        Vous êtes commerçant,un magasinier, un marchand, un marchand ambulant
+        vous n'avez pas le moyen financier nécessaire pour créer votre petit
+        business? l'Éts Ben Adnan vous offre la facilité de payer vos commandes
+        en 2, 3, 4 fois sans frais,Nous sommes là pour aidé tout le monde a créé
+        son business dans des bonnes conditions.
+      </p>
       <h4>DECOUVREZ NOS DIFFERENTS ARTICLES</h4>
       <ul>
         <Link to="/Pagne_Getzner" className="PAGNE_GETZNER">
