@@ -3,7 +3,6 @@
   padding: 0;
 }
 
-
 .accueil {
   display: flex;
   justify-content: center;
@@ -54,13 +53,23 @@ td {
 td {
   background-color: rgba(98, 129, 176, 1);
 }
+.images {
+  background-color: rgba(64, 224, 208, 0.099);
+}
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 600px) {
   .images {
+    background-color:blanchedalmond;
     display: flex;
     justify-content: center;
-    padding: 0% 70px;
+    padding: 2% 32%;
+    margin: 0% 2%;
+  
+  }
+
+  .wax {
+    display: none;
   }
   .ligne1 {
     margin: 10% 30%;
@@ -69,6 +78,7 @@ td {
     margin: 10% 5%;
   }
   .ligne {
+    background-color: snow;
     color: rgba(8, 29, 103, 1);
     text-align: center;
     margin: 5%;
@@ -77,13 +87,13 @@ td {
 
 @media screen and (min-width: 600px) {
   dd {
-    background: rgba(98, 129, 176, 1);
+    background-color: coral;
     text-align: center;
     justify-content: space-between;
     font-size: 30px;
     color: white;
-    margin: 0% 40%;
-    padding: 2%;
+    margin: 0% 35%;
+    padding: 1%;
   }
   td {
     display: flex;
@@ -94,7 +104,44 @@ td {
     padding: 1%;
     background-color: rgba(98, 129, 176, 1);
   }
+  .text {
+    background-color: aliceblue;
+    color: rgba(8, 29, 103, 1);
+    display: flex;
+    text-align: center;
+    margin: 0% 15%;
+    padding: 4%;
+    font-size: x-large;
+  }
+  h2 {
+    font-size: xx-large;
+  }
+  .images {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0% 20%;
+    padding: 1% 0%;
+  }
+
+  .ligne1 {
+    margin: 0% 30%;
+  }
+  .ligne2 {
+    margin: 5% 20%;
+  }
+  .ligne {
+    background-color: snow;
+    color: rgba(8, 29, 103, 1);
+    text-align: center;
+    margin: 5%;
+  }
   .accueil {
-    background-color: red;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    
+   
+   
   }
 } ;

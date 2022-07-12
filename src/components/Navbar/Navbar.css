@@ -1,16 +1,13 @@
 .navbar {
   display: flex;
-  height: 75px;
+  height: 80px;
   background-color: blue;
 }
 
 .logo {
-  color: white;
-  font-size: 30px;
   display: flex;
-  position: absolute;
-  top: 25px;
-  left: 40%;
+  width: 90px;
+  height: 79px;
 }
 
 .nav-links {
@@ -36,17 +33,32 @@
 }
 
 .Signup {
-  border: 1px solid chartreuse;
-  border-radius: 10px;
+  border: 1px solid white;
+  border-radius: 9px;
 }
 
 .mobile-menu-icon {
   display: none;
 }
 
+@media screen and (min-width: 600px) {
+  .logo {
+    margin: 0%;
+  }
+}
+
 @media screen and (max-width: 780px) {
   .nav-links {
     display: none;
+  }
+
+  .logo {
+    display: flex;
+    position: absolute;
+    top: 10px;
+    left: 82%;
+    width: 50px;
+    height: 40px;
   }
 
   .nav-links-mobile {

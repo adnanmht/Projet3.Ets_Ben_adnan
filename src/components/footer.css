@@ -3,16 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 @import url("https: //fonts.google.com/share?selection.family=Abhaya%20Libre");
 body {
   font-family: "Abhaya Libre", serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
 }
 .main-footer {
   background: blue;
-  display: flex;
-  bottom: 0;
-  width: 100%;
-  height: 100%;
 }
 
 .container {
@@ -23,22 +23,24 @@ body {
 }
 
 .content {
-  color: brown;
-  font-size: 15px;
-  margin-left: 5px;
+  color: white;
+  font-size: large;
 }
 
-.logo-content {
-  display: flex;
-  align-items: flex-end;
-}
+@media screen and (min-width: 600px) {
+  .main-footer {
+    background: blue;
+    padding: 0% 50%;
+    display: flex;
+    text-align: justify;
+  }
 
-.logo {
-  height: 20px;
-  width: 20px;
-  margin: 0px 5px;
-}
+  .content {
+    display: flex;
 
-.webName {
-  font-size: 12pt;
+    font-size: x-large;
+    position: relative;
+    left: 100%;
+    transform: translateX(-390%);
+  }
 }
