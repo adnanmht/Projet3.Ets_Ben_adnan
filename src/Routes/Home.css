@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.accueil {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+  margin: 0px;
+  color: darkblue;
+}
+
+h2 {
+  text-align: center;
+  font-size: 20px;
+  margin: 30px;
+  color: darkblue;
+}
+.text {
+  color: rgba(8, 29, 103, 1);
+  text-align: center;
+  margin: 5%;
+}
+
+h4 {
+  text-align: center;
+  font-size: 20px;
+  margin: 40px;
+  color: crimson;
+}
+dd {
+  background: rgba(98, 129, 176, 1);
+  text-align: center;
+  justify-content: space-between;
+  font-size: 20px;
+  color: white;
+  margin: 0% 20%;
+  padding: 5%;
+}
+td {
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  color: white;
+  margin: 10% 30%;
+  padding: 3%;
+}
+td {
+  background-color: rgba(98, 129, 176, 1);
+}
+.images {
+  background-color: rgba(64, 224, 208, 0.099);
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 600px) {
+  .images {
+    background-color:blanchedalmond;
+    display: flex;
+    justify-content: center;
+    padding: 2% 32%;
+    margin: 0% 2%;
+  
+  }
+
+  .wax {
+    display: none;
+  }
+  .ligne1 {
+    margin: 10% 30%;
+  }
+  .ligne2 {
+    margin: 10% 5%;
+  }
+  .ligne {
+    background-color: snow;
+    color: rgba(8, 29, 103, 1);
+    text-align: center;
+    margin: 5%;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  dd {
+    background-color: coral;
+    text-align: center;
+    justify-content: space-between;
+    font-size: 30px;
+    color: white;
+    margin: 0% 35%;
+    padding: 1%;
+  }
+  td {
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    color: white;
+    margin: 4% 42%;
+    padding: 1%;
+    background-color: rgba(98, 129, 176, 1);
+  }
+  .text {
+    background-color: aliceblue;
+    color: rgba(8, 29, 103, 1);
+    display: flex;
+    text-align: center;
+    margin: 0% 15%;
+    padding: 4%;
+    font-size: x-large;
+  }
+  h2 {
+    font-size: xx-large;
+  }
+  .images {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0% 20%;
+    padding: 1% 0%;
+  }
+
+  .ligne1 {
+    margin: 0% 30%;
+  }
+  .ligne2 {
+    margin: 5% 20%;
+  }
+  .ligne {
+    background-color: snow;
+    color: rgba(8, 29, 103, 1);
+    text-align: center;
+    margin: 5%;
+  }
+  .accueil {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    
+   
+   
+  }
+} ;
