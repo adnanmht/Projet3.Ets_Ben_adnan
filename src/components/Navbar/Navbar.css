@@ -1,27 +1,20 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 .navbar {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 75px;
+  height: 80px;
   background-color: blue;
-  color: white;
 }
 
 .logo {
-  font-size: 30px;
+  display: flex;
+  width: 90px;
+  height: 79px;
 }
 
 .nav-links {
   display: flex;
   justify-content: flex-end;
   list-style: none;
-  width: 90%;
+  width: 100%;
 }
 
 .Home,
@@ -41,22 +34,31 @@
 
 .Signup {
   border: 1px solid white;
-  border-radius: 10px;
+  border-radius: 9px;
 }
 
 .mobile-menu-icon {
   display: none;
 }
 
-@media screen and (max-width: 780px) {
-  .log {
-    display: flex;
-    position: absolute;
-    top: 15px;
-    left: 35px;
+@media screen and (min-width: 600px) {
+  .logo {
+    margin: 0%;
   }
+}
+
+@media screen and (max-width: 780px) {
   .nav-links {
     display: none;
+  }
+
+  .logo {
+    display: flex;
+    position: absolute;
+    top: 10px;
+    left: 82%;
+    width: 50px;
+    height: 40px;
   }
 
   .nav-links-mobile {
@@ -84,19 +86,13 @@
     transition: all 0.5s ease;
   }
 
-  .Signup {
-    border: none;
-  }
-
   .mobile-menu-icon {
-    display: block;
-    position: absolute;
-    font-size: 30px;
+    display: flex;
+    margin: 1%;
+    font-size: 60px;
     color: white;
-    background-color: rgba(19, 90, 198, 1);
+    background-color: blue;
     border: none;
     outline: none;
-    top: 15px;
-    right: 25px;
   }
 }

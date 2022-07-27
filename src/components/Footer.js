@@ -6,20 +6,18 @@ export default function Footer() {
     <div className="main-footer">
       <div className="container">
         <NavLink className={"content"} to="/ Mentions légales">
-        Mentions légales | Pretection des données | CGV | Conditions des
-          offres |
+          <p>
+            {" "}
+            Mentions légales | Pretection des données | CGV | Conditions des
+            offres |
+          </p>
         </NavLink>
         <NavLink className={"content"} to="/Contact">
-          Contact: 0695230882 
-          mail: mahamatadnan@gmail.com
-          Plus d’inspiration 
+          <p>
+            {" "}
+            Contact: 0695230882 mail: mahamatadnan@gmail.com| Plus d'information
+          </p>
         </NavLink>
-      </div>
-      <div className="logo-content">
-        <div className="webName">
-          Plus d’inspiration 
-        </div>
-      
       </div>
     </div>
   );
