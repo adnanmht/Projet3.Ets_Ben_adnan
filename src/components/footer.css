@@ -13,6 +13,9 @@ body {
 }
 .main-footer {
   background: blue;
+  display: flex;
+  margin-top: 2%;
+ 
 }
 
 .container {
@@ -20,6 +23,7 @@ body {
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-end;
+
 }
 
 .content {

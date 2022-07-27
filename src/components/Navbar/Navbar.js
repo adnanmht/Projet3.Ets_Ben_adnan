@@ -16,17 +16,20 @@ const Navbar = () => {
         <Link to="/" className="Home">
           <li>Home</li>
         </Link>
-        <Link to="/Pagne_Getzner" className="Pagne_Getzner">
-          <li>Pgne&Getzner</li>
+        <Link to="/Pagne" className="Nos_Tissus">
+          <li>Nos-Tissus</li>
         </Link>
         <Link to="/Nos_chaussure" className="Nos_chaussure">
-          <li>Nos_Chaussure</li>
+          <li>Nos-Chaussure</li>
         </Link>
-        <Link to="/eans_teeshirt" className="Jeans_teeshirt">
-          <li>Teeshirt&Jeans</li>
+        <Link to="/rendezvous" className="Rendezvous">
+          <li>Prendre rdv</li>
         </Link>
-        <Link to="/Qui_somme_nous" className="Qui_somme_nous">
-          <li>Qui_somme_nous</li>
+        <Link to="/Jeansteeshirt" className="Jeansteeshirt">
+          <li>Jeans & Teeshirt</li>
+        </Link>
+        <Link to="/About" className="About">
+          <li>About</li>
         </Link>
         <Link to="/Contact" className="Contact">
           <li>Contact</li>

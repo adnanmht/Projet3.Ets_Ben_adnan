@@ -1,7 +1,11 @@
-import React from "react";
+import React from 'react';
 
-const Jeans_tee_shirt = () => {
-  return <div>Jeans_tee_shirt</div>;
+const Jeansteeshirt = () => {
+  return (
+    <div>
+      <h1> Nos jeans et Teeshirt</h1>
+    </div>
+  );
 };
 
-export default Jeans_tee_shirt;
+export default Jeansteeshirt;

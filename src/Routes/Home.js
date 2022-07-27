@@ -23,8 +23,8 @@ const Home = () => {
       <h4>DECOUVREZ NOS DIFFERENTS ARTICLES</h4>
       <div className="container">
         <ul>
-          <Link to="/Pagne_Getzner" className="PAGNE_GETZNER">
-            <dd>PAGNE&GETZNER</dd>
+          <Link to="/pagne" className="Pagne">
+            <dd>Nos Tissus</dd>
             <td>PAGNE</td>
             <div className="images">
               <img src="img/pagne4.png" alt="Pagne4" />
@@ -38,8 +38,8 @@ const Home = () => {
               <img src="img/getzner.png" alt="getzner" />
             </div>{" "}
           </Link>
-          <Link to="/jeans_teeshirt" className="Jeans_teeshirt">
-            <dd>JEANS & TEE SHIRT</dd>
+          <Link to="/Jeansteeshirt" className="Jeansteeshirt">
+            <dd>JEANS & TEESHIRT</dd>
             <td>JEANS</td>
             <div className="images">
               <img src="img/jeans.png" alt="Jeans" />

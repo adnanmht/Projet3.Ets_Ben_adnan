@@ -18,10 +18,11 @@
 }
 
 .Home,
-.Pagne_Getzner,
+.Nos_Tissus,
 .Nos_chaussure,
-.Jeans_teeshirt,
-.Qui_somme_nous,
+.Jeansteeshirt,
+.Rendezvous,
+.About,
 .Contact,
 .Signup {
   text-decoration: none;
@@ -73,10 +74,11 @@
   }
 
   .Home,
-  .Pagne_Getzner,
+  .Nos_Tissus,
   .Nos_chaussure,
-  .Jeans_teeshirt,
-  .Qui_somme_nous,
+  .Jeansteeshirt,
+  .Rendezvous,
+  .About,
   .Contact,
   .Signup {
     color: white;
@@ -94,5 +96,10 @@
     background-color: blue;
     border: none;
     outline: none;
+  }
+  .Signup {
+    display: none;
+    border: 1px solid white;
+    border-radius: 9px;
   }
 }
